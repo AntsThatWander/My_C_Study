@@ -1,0 +1,26 @@
+stdio.h
+->printf, scanf
+printf("")
+int A;
+printf("%d",A)->정수
+
+#include <stdio.h>
+int main(){
+return 0;
+}
+기본
+
+compile 번역
+컴파일하지 않으면, 실행해도 전에 컴파일 됐던 부분이 출력됨.
+
+선언-int (문자); ex) int A,B;->메모리방, 같은 종류를 선언할 거면 같이 써도 됨.
+입력-scanf("%d",&(문자));->&(문자)는 주소, 여기다 넣겠다고 입력 ex)scanf("%d",&A):
+선언-int (문자);
+계산-(문자)=A+B;->같다고 하고 싶을 때는 ==
+출력-printf("%d",sum);
+함수종료-return 0;
+
+scanf("%d %d",&A,&B);
+printf("%d",A+B);
+
+//,/**/,ctrl+/->전체 주석
